@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Itsme-.3</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+  <div class="cutie">
+    <div class="texts">Itsme </div>
+  </div>
+  
+  <div class="container">
+    <img src="https://media.discordapp.net/attachments/929089527186874420/1141389973485010974/4a47b9cd15e5a98b883262167801c4e3.png?width=607&height=607" alt="Marv Logo" class="logo">
+    <button id="redirectButton">Discord Sv</button>
+    <button id="profileButton">Roblox Profile</button>
+    <button id="jobButton">About me</button>
+    <button id="pprButton">Codes Shop</button>
+    <div id="jobFrame" class="hidden">
+      <p>- I'm itsme ✌</p>
+      <p>- I like to code 💻</p>
+      <p>- I can code HTML, Python, CSS, Java, and many others 🐱‍👤</p>
+      <p>- I can code your dream 👀</p>
+      <p>- If you need some help coding text me 🎁</p>
+      <p>- I got many friends 💙</p>
+    </div>
+  </div>
+
+  
+  <script>
+    document.getElementById('redirectButton').addEventListener('click', function() {
+      window.location.href = 'https://discord.gg/qe8akTPsuj';
+    });
+
+    document.getElementById('profileButton').addEventListener('click', function() {
+      window.location.href = 'https://www.roblox.com/users/2216771385/profile';
+    });
+
+    document.getElementById('jobButton').addEventListener('click', function() {
+      var jobFrame = document.getElementById('jobFrame');
+      jobFrame.classList.toggle('hidden');
+    });
+
+    document.getElementById('pprButton').addEventListener('click', function() {
+      window.location.href = 'https://discord.gg/aBsgEbgC4e';
+    });
+  </script>
+</body>
+
+</html>
